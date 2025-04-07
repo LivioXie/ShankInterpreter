@@ -1,0 +1,22 @@
+define myFunction()
+    variables x, y: integer
+    x = 10
+    y = 20
+    if x < y then
+        print("x is less than y")
+    else
+        print("x is not less than y")
+
+define start (t : integer; s : real)  
+constants pi = 3.141 
+variables a , b , c : integer
+	 a [ b [ c [ 0 ] ] ] := 5 
+
+define add (a,b : integer; var c:integer) 
+    c:=a+b
+
+add 1, 2, var c
+add a, 2+3, var a
+add 1,2,3
+add 1,2,a
+add 2.3 7.4 var a
